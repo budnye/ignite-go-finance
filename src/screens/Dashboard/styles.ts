@@ -3,6 +3,8 @@ import { Feather } from '@expo/vector-icons';
 import { RFPercentage, RFValue } from 'react-native-responsive-fontsize';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
+
+
 export const Container = styled.View`
   flex: 1;
   align-items: center;
@@ -55,8 +57,9 @@ export const UserName = styled.Text`
 `;
 
 export const Icon = styled(Feather)`
-  color: ${({theme}) => theme.colors.secondary};
   font-size: ${RFValue(24)}px;
+  color: ${({theme}) => theme.colors.secondary};
+
 `;
 
 export const HighlightCards = styled.ScrollView.attrs({
