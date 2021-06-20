@@ -17,13 +17,11 @@ interface CategoryProps {
 };
 
 export interface TransactionCardProps { 
-  data: {
   type: 'positive' | 'negative';
   title: string;
   amount: string;
   category: CategoryProps;
   date: string;
-  }
 };
 
 interface Props {
