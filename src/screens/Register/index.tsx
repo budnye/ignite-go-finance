@@ -10,6 +10,7 @@ import {
 } from './styles'
 import { Button } from '../../components/Form/Button';
 import { TransactionTypeButton } from '../../components/Form/TransactionTypeButton';
+import { CategorySelect } from '../../components/Form/CategorySelect';
 
 export function Register(){
   const [transactionType, setTransactionType] = useState('')
@@ -43,6 +44,7 @@ export function Register(){
         />
 
       </TranscationsTypes>
+        <CategorySelect title="Categorias"/>
      </Fields>
      <Button title="Adicionar"/>
     </Form>
