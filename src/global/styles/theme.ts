@@ -6,7 +6,7 @@ export default {
     secondaryLight: 'rgba(255, 135, 44, 0.3)',
 
     success: '#12A454',
-    successLight: 'rgb(18, 164, 84, 0.5)',
+    successLight: 'rgba(18, 164, 84, 0.5)',
 
     warning: '#E83F5B',
     warningLight: 'rgba(232, 63, 91, 0.5)',
